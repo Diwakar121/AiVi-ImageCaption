@@ -4,7 +4,7 @@
 # In[2]:
 
 
-from keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
+from keras.applications.resnet import ResNet50, preprocess_input, decode_predictions
 from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing import image
 from keras.models import load_model, Model
