@@ -9,7 +9,7 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing import image
 from keras.models import load_model, Model
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import pickle
 import numpy as np
 
@@ -116,25 +116,25 @@ def caption_this_image(input_img):
 # In[14]:
 
 
-enc = encode_image("testimg.jpg");
+# enc = encode_image("testimg.jpg");
 
 
-# In[15]:
+# # In[15]:
 
 
-enc
+# enc
 
 
-# In[16]:
+# # In[16]:
 
 
-predict_caption(enc)
+# predict_caption(enc)
 
 
-# In[17]:
+# # In[17]:
 
 
-caption_this_image("testimg.jpg")
+# caption_this_image("testimg.jpg")
 
 
 # In[ ]:
