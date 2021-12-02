@@ -4,8 +4,6 @@ itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
 Werkzeug==0.15.6
-tensorflow
-tensorflow-estimator
 Click==7.0
 numpy
 pandas
@@ -13,4 +11,3 @@ scikit-learn
 Keras
 Keras-Preprocessing
 pickleshare
-matplotlib
