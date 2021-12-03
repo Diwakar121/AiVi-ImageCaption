@@ -1,7 +1,5 @@
 tensorflow-cpu
-tensorflow-cpu-estimator
 Keras
-keras-applications
 Flask==1.1.1
 gunicorn==19.9.0
 itsdangerous==1.1.0
@@ -12,7 +10,6 @@ Click==7.0
 numpy
 pandas
 scikit-learn
-keras-Preprocessing
 pickleshare
 
 
